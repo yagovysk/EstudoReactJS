@@ -7,14 +7,14 @@ Usar somente classes no css com react.
 No react para usar class se declara "className" "className{style.header}
 exportar e importar, posso colocar criando uma function: 
 function Post() {
-	return <p>oi</p>
+	return <p> oi </p>
 	}
 	
 No final posso colocar:
 1-export default Post
 2 - caso eu queira dar um nome único coloco export antes dai fica assim :
-export function Post(){
-		return <p>oi</p>
+export function Post() {
+		return <p> oi </p>
 		}
 		
 /*não precisa colocar export default Nome no final*/
